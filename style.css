@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+#calculator {
+    border: 5px darkgreen solid;
+    border-radius: 20px;
+    width: 450px;
+    padding: 20px;
+    background-color: rgb(85, 128, 85);
+}
+#top {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 5px;
+}
+
+#on-off {
+    border: 2px black solid;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: lightcoral;
+}
+
+#display {
+    height: 50px;
+    width: 440px;
+    text-align: right;
+    line-height: 50px;
+
+    box-sizing: border-box;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px black solid;
+
+    font-size: 40px;
+    font-family: monospace;
+    background-color: blanchedalmond;
+}
+
+#buttonGrid {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.button1 {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 70px;
+    width: 80px;
+
+    box-sizing: border-box;
+
+    font-size: 30px;
+    font-family: monospace;
+    background-color: white;
+    text-align: center;
+    line-height: 70px;
+
+    margin: 5px;
+    
+}
+
+.button2 {
+    border: 2px black solid;
+    border-radius: 10px;
+    height: 70px;
+    width: 170px;
+
+    box-sizing: border-box;
+
+    font-size: 30px;
+    font-family: monospace;
+    background-color: white;
+    text-align: center;
+    line-height: 70px;
+
+    margin: 5px;
+    
+}
+
+.redButton {
+    background-color: rgb(255, 119, 70);
+}
